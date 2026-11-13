@@ -1,0 +1,21 @@
+package android.graphics;
+
+/**
+ * Golden-dump shadow (scratch copy only): the JVM unit-test android.jar has no native Skia, so this
+ * class stands in for android.graphics.Path and forwards to real Skia through Skiko. Only the calls
+ * GameEngine makes through Compose's AndroidPath are implemented.
+ */
+public class Path {
+    public final org.jetbrains.skia.PathBuilder sk = new org.jetbrains.skia.PathBuilder();
+
+    public enum FillType { WINDING, EVEN_ODD, INVERSE_WINDING, INVERSE_EVEN_ODD }
+
+    public Path() {}
+
+    public void moveTo(float x, float y) { sk.moveTo(x, y); }
+    public void lineTo(float x, float y) { sk.lineTo(x, y); }
+    public void quadTo(float x1, float y1, float x2, float y2) { sk.quadTo(x1, y1, x2, y2); }
+    public void close() { sk.closePath(); }
+        public FillType getFillType() { return FillType.WINDING; }
+    public void setFillType(FillType t) {}
+}

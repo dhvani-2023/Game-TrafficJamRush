@@ -1,0 +1,24 @@
+package android.graphics;
+
+/** Golden-dump shadow of android.graphics.PathMeasure backed by Skia's SkPathMeasure (Skiko). */
+public class PathMeasure {
+    private org.jetbrains.skia.PathMeasure m;
+
+    public PathMeasure() {}
+
+    public void setPath(Path path, boolean forceClosed) {
+        m = path == null ? null : new org.jetbrains.skia.PathMeasure(path.sk.snapshot(), forceClosed, 1f);
+    }
+
+    public float getLength() { return m == null ? 0f : m.getLength(); }
+
+    public boolean getPosTan(float distance, float[] pos, float[] tan) {
+        if (m == null) return false;
+        org.jetbrains.skia.Point p = m.getPosition(distance);
+        org.jetbrains.skia.Point t = m.getTangent(distance);
+        if (p == null || t == null) return false;
+        if (pos != null) { pos[0] = p.getX(); pos[1] = p.getY(); }
+        if (tan != null) { tan[0] = t.getX(); tan[1] = t.getY(); }
+        return true;
+    }
+}

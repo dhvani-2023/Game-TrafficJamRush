@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20514905E1852996A5B5D2CE /* GameKit in Frameworks */ = {isa = PBXBuildFile; productRef = EAFF12A0358B3620593648CC /* GameKit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D75D84297E5B0C8306CD9BA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD1E5014533F9B7F88118252 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE648B2FF989F0665C1B3C76;
+			remoteInfo = TrafficJamRush;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5874555E044E87C790C3691F /* TrafficJamRush.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrafficJamRush.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FE12B5EDBEFD0783EC20DC4 /* TrafficJamRushTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrafficJamRushTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		887EDEE5F2D630C8C0F7EDE9 /* TrafficJamRush */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TrafficJamRush;
+			sourceTree = "<group>";
+		};
+		9ABBDDE1FE3E711DB62DD64E /* TrafficJamRushTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TrafficJamRushTests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		404AA3C77D0DA57C8DE9D511 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20514905E1852996A5B5D2CE /* GameKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E2344C4D2AD2F182FBC5BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		324704394C7703FF0410AA1D = {
+			isa = PBXGroup;
+			children = (
+				887EDEE5F2D630C8C0F7EDE9 /* TrafficJamRush */,
+				9ABBDDE1FE3E711DB62DD64E /* TrafficJamRushTests */,
+				616A83720836F66791063D4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		616A83720836F66791063D4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5874555E044E87C790C3691F /* TrafficJamRush.app */,
+				6FE12B5EDBEFD0783EC20DC4 /* TrafficJamRushTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE648B2FF989F0665C1B3C76 /* TrafficJamRush */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 045F005DDC12BD003BF7595B;
+			buildPhases = (
+				640683D4A3E0A3439EB87410 /* Sources */,
+				404AA3C77D0DA57C8DE9D511 /* Frameworks */,
+				9DD510E0DFAADB5AC794023C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				887EDEE5F2D630C8C0F7EDE9 /* TrafficJamRush */,
+			);
+			name = TrafficJamRush;
+			packageProductDependencies = (
+				EAFF12A0358B3620593648CC /* GameKit */,
+			);
+			productName = TrafficJamRush;
+			productReference = 5874555E044E87C790C3691F /* TrafficJamRush.app */;
+			productType = "com.apple.product-type.application";
+		};
+		116DD75C666D4292121E40DB /* TrafficJamRushTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6506457CA09A13A43C77EE0;
+			buildPhases = (
+				DBA384962A035B9AF22C056E /* Sources */,
+				84E2344C4D2AD2F182FBC5BF /* Frameworks */,
+				8C774318B86F501DB6E2F14F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7C3909D78354929BFF644C0C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9ABBDDE1FE3E711DB62DD64E /* TrafficJamRushTests */,
+			);
+			name = TrafficJamRushTests;
+			packageProductDependencies = (
+			);
+			productName = TrafficJamRushTests;
+			productReference = 6FE12B5EDBEFD0783EC20DC4 /* TrafficJamRushTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD1E5014533F9B7F88118252 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					EE648B2FF989F0665C1B3C76 = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					116DD75C666D4292121E40DB = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = EE648B2FF989F0665C1B3C76;
+					};
+				};
+			};
+			buildConfigurationList = FAA0CBCDECC63CE4BCCA7004;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 324704394C7703FF0410AA1D;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				11340BA39CECEE3C0D509B9C /* XCLocalSwiftPackageReference "Packages/GameKit" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 616A83720836F66791063D4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE648B2FF989F0665C1B3C76 /* TrafficJamRush */,
+				116DD75C666D4292121E40DB /* TrafficJamRushTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DD510E0DFAADB5AC794023C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C774318B86F501DB6E2F14F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		640683D4A3E0A3439EB87410 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBA384962A035B9AF22C056E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7C3909D78354929BFF644C0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE648B2FF989F0665C1B3C76 /* TrafficJamRush */;
+			targetProxy = D75D84297E5B0C8306CD9BA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A6113A3F706EDD4307B78683 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		25B90CA6B8D40842DCE42171 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D47F00F6E63C1E4D4452FE85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Traffic Jam";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.puzzle-games";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.puzzel.lab.cartrafficjam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		20DE7D758C7A527AC29B2C22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Traffic Jam";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.puzzle-games";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.puzzel.lab.cartrafficjam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FC7355D8EBBD3A5125454981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.puzzel.lab.cartrafficjam.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrafficJamRush.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TrafficJamRush";
+			};
+			name = Debug;
+		};
+		612ECD96F853E32C9593396D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.puzzel.lab.cartrafficjam.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrafficJamRush.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TrafficJamRush";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAA0CBCDECC63CE4BCCA7004 /* Build configuration list for PBXProject "TrafficJamRush" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6113A3F706EDD4307B78683 /* Debug */,
+				25B90CA6B8D40842DCE42171 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		045F005DDC12BD003BF7595B /* Build configuration list for PBXNativeTarget "TrafficJamRush" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D47F00F6E63C1E4D4452FE85 /* Debug */,
+				20DE7D758C7A527AC29B2C22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6506457CA09A13A43C77EE0 /* Build configuration list for PBXNativeTarget "TrafficJamRushTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC7355D8EBBD3A5125454981 /* Debug */,
+				612ECD96F853E32C9593396D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		11340BA39CECEE3C0D509B9C /* XCLocalSwiftPackageReference "Packages/GameKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/GameKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EAFF12A0358B3620593648CC /* GameKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = GameKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = AD1E5014533F9B7F88118252 /* Project object */;
+}
